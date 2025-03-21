@@ -4,6 +4,8 @@ a{
 body{
     background-color: #27428c;
     background-color: #e3e7fc;
+    background: rgb(227,219,255);
+background: linear-gradient(90deg, rgba(227,219,255,1) 0%, rgba(130,234,255,1) 20%, rgba(163,255,169,1) 40%, rgba(247,250,174,1) 60%, rgba(255,227,163,1) 80%, rgba(255,172,172,1) 100%);
     font-family: "Merriweather Sans", sans-serif;
 }
 header{
@@ -11,8 +13,7 @@ header{
     text-align: center;
     display: block;
     background-color: #fffdb7;
-    background: rgb(255,215,0);
-background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,239,152,1) 10%, rgba(255,252,238,1) 35%, rgba(255,252,238,1) 65%, rgba(255,239,152,1) 90%, rgba(255,215,0,1) 100%);
+    background: white;
     color: black;
     width: 100%;
     padding-top: 1.5em;
@@ -40,9 +41,7 @@ nav{
     text-align: center;
 }
 footer{
-    background-color: #fffdb7;
-    background: rgb(255,215,0);
-    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,239,152,1) 10%, rgba(255,252,238,1) 35%, rgba(255,252,238,1) 65%, rgba(255,239,152,1) 90%, rgba(255,215,0,1) 100%);
+    background-color: #ffffff;
     font-family: "Oswald";
     padding-left: 2%;
     padding-right: 2%;   
@@ -50,7 +49,7 @@ footer{
 nav a{
     text-decoration: none;
     display: block;
-    background-color: #27428c;
+    background-color: #01030b;
     color: white;
     font-weight: bold;
     line-height: 25px;
@@ -69,7 +68,7 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    background-color: #27428c;
+    background-color: #01030b;
     color: white;
     font-weight: bold;
     line-height: 25px;
@@ -99,6 +98,12 @@ footer{
     align-items: center;
     padding: 1em 5%;  
 }
+h3 {
+   padding-left: 1%; 
+}
+ul li{
+    line-height: 2em;
+}
 @media only screen and (min-width: 600px) {
     #home main{
         width: 1044px;
@@ -115,7 +120,7 @@ footer{
     }
     #home nav ul li a {
         text-decoration: none;
-        background-color: #27428c;
+        background-color: #01030b;
         display: block;
         color: white;
         font-size: 1.25em;
@@ -146,7 +151,7 @@ footer{
         padding: 0;
     }
     #internal nav a {
-        background-color: #27428c;
+        background-color: #01030b;
         display: block;
         color: white;
         font-size: 1.25em;
